@@ -7,4 +7,6 @@ RUN mvn clean install
 WORKDIR /myapp/target
 RUN ls -l
 ENTRYPOINT java -jar sampleproject-1.0-SNAPSHOT.jar
+
+
 EXPOSE 8041
