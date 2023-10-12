@@ -1,2 +1,2 @@
-FROM master
-COPY index.html /usr/share/master/html
+FROM nginx
+COPY index.html /usr/share/nginx/html
