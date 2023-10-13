@@ -14,6 +14,6 @@ public class Main {
 
     @GetMapping("/hello") // Define a simple GET endpoint
     public String hello() {
-        return "Hello, Docker!"; // Change the response message
+        return "Hi geetha !! Welcome"; // Change the response message
     }
 }
